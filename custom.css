@@ -642,6 +642,25 @@ div.wpb_row.vc_row-fluid.vc_row.standard_section {
     }
 }
 
+@media screen and (max-width: 690px) {
+	.parallax_slider_outer.first-section .swiper-slide .content {
+		top: 0 !important;
+		margin-top: 30vh !important;
+	}
+
+	.nectar-slider-wrap[data-full-width="true"] .swiper-slide .content p {
+		width: 70%;
+	}
+
+	.first-custom-divider {
+		width: 80% !important;
+	}
+
+	body .container {
+		max-width: 500px !important;
+	}
+}
+
 @media screen and (max-width: 480px) {
 	.light-heading {
 		font-size: 22px;
