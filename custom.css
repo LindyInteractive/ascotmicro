@@ -148,12 +148,13 @@ body #header-outer {
 /* begin accordion info styles */
 .accordion.education .accordion-title {
 	border-bottom: 1px solid #DBDBDB;
-	margin-bottom: 5px;
+	margin-bottom: 5px !important;
 	padding-left: 25px;
-	background-image: url("http://10.1.10.157:8888/ascotmicro/wp-content/uploads/2015/07/downarrow.png");
+	background-image: url("http://10.1.10.157:8888/ascotmicro/wp-content/uploads/2015/07/downarrow.svg");
+	background-size: 13px;
 	background-repeat: no-repeat;
 	background-position: left center;
-	font-size: 20px !important;
+	font-size: 18px !important;
 	font-weight: 700 !important;
 	color: #bfd3d8 !important;
 }
@@ -164,7 +165,8 @@ body #header-outer {
 }
 
 .accordion.education .accordion-title.open {
-	background-image: url("http://10.1.10.157:8888/ascotmicro/wp-content/uploads/2015/07/uparrow.png");
+	background-image: url("http://10.1.10.157:8888/ascotmicro/wp-content/uploads/2015/07/uparrow.svg");
+	background-size: 13px;
 	background-repeat: no-repeat;
 	background-position: left center;
 }
