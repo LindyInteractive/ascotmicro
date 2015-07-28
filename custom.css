@@ -693,6 +693,13 @@ div.wpb_row.vc_row-fluid.vc_row.standard_section {
 	    font-weight: bold;
 	}
 
+	#first-row .heavy-heading, #first-row .extra-heavy-heading-dark, #first-row .extra-heavy-heading-light {
+		font-size: 70px;
+		line-height: 50px !important;
+		position: relative;
+		top: 10px;
+	}
+
 	.first-custom-divider {
 		display: none;
 	}
