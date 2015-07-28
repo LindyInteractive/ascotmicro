@@ -160,6 +160,7 @@ body #header-outer {
 
 .accordion-title {
 	cursor: pointer !important;
+	line-height: 24px !important;
 }
 
 .accordion.education .accordion-title.open {
