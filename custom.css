@@ -157,6 +157,11 @@ body #header-outer {
 	font-weight: 700 !important;
 	color: #bfd3d8 !important;
 }
+
+.accordion-title {
+	pointer: cursor;
+}
+
 .accordion.education .accordion-title.open {
 	background-image: url("http://10.1.10.157:8888/ascotmicro/wp-content/uploads/2015/07/uparrow.png");
 	background-repeat: no-repeat;
@@ -717,4 +722,3 @@ div.wpb_row.vc_row-fluid.vc_row.standard_section {
     }
 }
 /* end miscellaneous styles */
-/* test */
