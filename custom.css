@@ -191,6 +191,12 @@ body #header-outer {
 	margin-bottom: 0px;
 }
 
+@media screen and (max-width: 690px) {
+	#slide-out-widget-area h2 {
+		margin-top: 50px !important;
+	}
+}
+
 #slide-out-widget-area h1 {
 	font-size: 22px !important;
 	font-weight: 700 !important;
