@@ -286,6 +286,7 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 
 #slide-out-widget-area #menu-item-1329 > a {
 	margin-bottom: 10px;
+	cursor: default;
 }
 
 #slide-out-widget-area #menu-item-1329 > a:hover {
