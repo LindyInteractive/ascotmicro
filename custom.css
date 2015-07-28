@@ -159,7 +159,7 @@ body #header-outer {
 }
 
 .accordion-title {
-	pointer: cursor;
+	cursor: pointer !important;
 }
 
 .accordion.education .accordion-title.open {
