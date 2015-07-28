@@ -268,6 +268,14 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 	color: #A2B9C0 !important;
 }
 
+#slide-out-widget-area ul.sub-menu {
+	border-left: 1px solid #a2b9c0;
+}
+
+#slide-out-widget-area #menu-item-1329 > a {
+	margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1000px) {
 	body #header-outer {
 		margin-top: 0 !important;
