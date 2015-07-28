@@ -288,6 +288,10 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 	margin-bottom: 10px;
 }
 
+#slide-out-widget-area #menu-item-1329 > a:hover {
+	color: #fff !important;
+}
+
 @media screen and (max-width: 1000px) {
 	body #header-outer {
 		margin-top: 0 !important;
