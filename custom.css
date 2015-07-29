@@ -185,16 +185,17 @@ body #header-outer {
 	letter-spacing: 1px !important;
 }
 
-#slide-out-widget-area a:hover {
-	color: blue !important;
+#slide-out-widget-area span {
+	display: block !important;
 }
 
-#slide-out-widget-area h2 {
+#slide-out-widget-area #title-first-line {
 	font-size: 18px !important;
 	line-height: 110% !important;
 	text-transform: uppercase !important;
 	margin-top: 100px;
 	margin-bottom: 0px;
+	font-weight: normal !important;
 }
 
 @media screen and (max-width: 690px) {
@@ -208,6 +209,15 @@ body #header-outer {
 	font-weight: 700 !important;
 	line-height: 110% !important;
 	text-transform: uppercase !important;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#slide-out-widget-area h1:hover {
+	color: #a2b9c0 !important;
 }
 
 #slide-out-widget-area hr {
@@ -765,7 +775,3 @@ div.wpb_row.vc_row-fluid.vc_row.standard_section {
     }
 }
 /* end miscellaneous styles */
-
-#slide-out-widget-area .site-title a:hover {
-	color: #a2b9c0 !important;
-}
