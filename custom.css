@@ -660,12 +660,26 @@ div.wpb_row.vc_row-fluid.vc_row.standard_section {
 	display: block;
 }
 
+@media screen and (min-width: 1300px) {
+	#page-header-bg h1, body h1, body .row .col.section-title h1 {
+		font-size: 90px !important;
+		line-height: 90px !important;
+	}
+}
+
 @media screen and (min-width: 1001px) and (max-width: 1300px) {
     #setting-controls, #style-controls, #shape-controls {
         margin-top: -20% !important;
     }
 
     body h1 {
+        font-size: 50px;
+        line-height: 54px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width: 1000px) {
+	body h1 {
         font-size: 72px;
         line-height: 78px;
     }
@@ -688,6 +702,11 @@ div.wpb_row.vc_row-fluid.vc_row.standard_section {
 	body .container {
 		max-width: 500px !important;
 	}
+
+	body h1 {
+        font-size: 50px;
+        line-height: 54px;
+    }
 }
 
 @media screen and (max-width: 480px) {
