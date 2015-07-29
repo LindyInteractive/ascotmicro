@@ -765,3 +765,7 @@ div.wpb_row.vc_row-fluid.vc_row.standard_section {
     }
 }
 /* end miscellaneous styles */
+
+#slide-out-widget-area .site-title a:hover {
+	color: #a2b9c0 !important;
+}
