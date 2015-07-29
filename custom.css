@@ -313,6 +313,7 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 		margin-top: 0 !important;
 		height: 0 !important;
 		position: fixed !important;
+		width: 100% !important;
 	}
 
 	#header-outer[data-full-width="true"] header > .container, #header-secondary-outer[data-full-width="true"] > .container {
