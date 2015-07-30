@@ -475,6 +475,20 @@ div.wpcf7-validation-errors {
 	border-color: #ff5959 !important;
 }
 
+.contact-text-block > .wpb_wrapper > p {
+	padding-bottom: 0;
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1160px) {
+	.contact-column textarea {
+		height: 130px;
+	}
+
+	.contact-column .radio-761 {
+		width: 80%;
+	}
+}
+
 @media screen and (max-width: 1000px) {
 	.contact-column .contact-text-block {
 		width: 85%;
@@ -495,6 +509,95 @@ div.wpcf7-validation-errors {
 
 	.contact-column .phone-input {
 		margin-top: 27px !important;
+	}
+
+	.contact-text-block .phone {
+		top: 9px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.contact-column .contact-text-block {
+		width: 100%;
+	}
+
+	.contact-column form {
+		padding: 5px 0px;
+	}
+
+	.contact-text-block .phone {
+		display: none !important;
+	}
+
+	.contact-column p {
+		padding-bottom: 0px;
+	}
+
+	.contact-column .top {
+		height: 140px !important;
+	}
+
+	.contact-column input[type='text'], .contact-column input[type='email'] {
+		padding: 5px !important;
+		height: 35px !important;
+	}
+
+	.contact-column textarea {
+		padding: 5px !important;
+		height: 80px;
+	}
+
+	.contact-column .top-left {
+		width: 100%;
+	}
+
+	.contact-column .top-right {
+		width: 100%;
+		float: left;
+	}
+
+	.contact-column .title-line {
+		position: relative;
+		top: 15px;
+	}
+
+	.contact-column .radio-761 {
+		width: 80%;
+	}
+
+	.title-radios .wpcf7-list-item {
+		margin-left: 8px !important;
+		display: inline;
+	}
+
+	.title-radios .wpcf7-list-item-label {
+		position: relative;
+		left: -3px;
+	}
+
+	.contact-column input[type='submit'] {
+		width: 40%;
+		font-size: 18px;
+		line-height: 22px;
+		padding: 5px 9px;
+	}
+
+	.contact-column .wpcf7-response-output {
+		font-size: 12px;
+		line-height: 18px;
+		margin-top: 18px !important;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.contact-column textarea {
+		height: 70px;
+	}
+
+	.contact-column .wpcf7-response-output {
+		max-height: 40px;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 }
 /* end contact form styles */
