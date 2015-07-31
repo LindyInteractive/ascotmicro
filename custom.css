@@ -342,6 +342,12 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 		line-height: 20px !important;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	#slide-out-widget-area #title-first-line {
+		margin-top: 20px;
+	}
+}
 /* end menu / slide out widget styles */
 
 /* begin contact form styles */
