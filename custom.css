@@ -799,10 +799,24 @@ div.wpb_row.vc_row-fluid.vc_row.standard_section {
     }
 }
 
+@media screen and (max-height: 850px) and (min-width: 1000px) {
+	#setting-controls, #style-controls, #shape-controls {
+		margin-top: 0px !important;
+	}
+}
+
 @media screen and (min-width: 691px) and (max-width: 1000px) {
 	body h1 {
         font-size: 72px;
         line-height: 78px;
+    }
+
+    .first-custom-divider {
+    	width: 55% !important;
+    }
+
+    .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content p {
+    	width: 50%;
     }
 }
 
