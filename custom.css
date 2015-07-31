@@ -11,8 +11,24 @@ body h2 {
     line-height: 50px !important;
 }
 
-a#logo {
-    display: none !important;   
+#header-outer header#top nav > ul.buttons {
+	height: 30px !important;
+	overflow: visible !important;
+}
+
+.lines-button {
+	top: 0 !important;
+}
+
+header#top #logo {
+	margin-top: 15px !important;
+	margin-left: 25px !important;
+	display: none;
+}
+
+header#top #logo, body header#top #logo img {
+	width: 29px !important;
+	height: 19px !important;
 }
 
 h1, .heavy-heading {
@@ -142,6 +158,10 @@ body #header-outer {
 @media screen and (max-width: 1000px) {
 	.full-height {
 		height: auto !important;
+	}
+
+	header#top #logo {
+		display: block !important;
 	}
 }
 
