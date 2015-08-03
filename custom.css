@@ -371,12 +371,13 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 /* end menu / slide out widget styles */
 
 /* begin contact form styles */
-.contact-column .contact-text-block {
+.contact-text-block {
 	width: 170%;
 	height: 100%;
 	position: absolute;
 	z-index: 10000;
-	padding: 30px;
+	padding: 20px !important;
+	background: #fff;
 }
 
 #contact-x {
@@ -398,7 +399,11 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 }
 
 .contact-column form {
-	padding: 30px;
+	padding: 10% 8% 0% 8%;
+}
+
+h1.expert-heading {
+	margin-bottom: 20px;
 }
 
 .contact-column input[type='text'], .contact-column input[type='email'] {
@@ -433,7 +438,7 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 	background: #fff;
 	border: 3px solid #565459;
 	color: #565459;
-	margin-top: 13px;
+	min-width: 100px !important;
 }
 
 .contact-column input[type='submit']:hover {
@@ -441,38 +446,14 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 	background: #565459 !important;
 }
 
-.contact-column .top {
-	height: 202px !important;
-}
-
-.contact-column .top-left {
-	width: 47%;
-	float: left;
-	z-index: 10000;
-}
-
-.contact-column input[type='email'] {
-	margin-top: 20px !important;
-}
-
-.contact-column .phone-input {
-	margin-top: 37px !important;
-}
-
-.contact-column .top-right {
-	width: 47%;
-	float: right;
-	color: #9D9D9D !important;
-	margin-top: 18px;
-}
-
 .contact-column .title-line {
 	padding-left: 10px;
 }
 
 .contact-column .radio-761 {
-	width: 70%;
+	width: 85%;
 	float: right;
+	z-index: 1000 !important;
 }
 
 .title-radios label span {
@@ -490,7 +471,8 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 }
 
 .wpcf7 .wpcf7-response-output {
-	margin-top: 20px;
+	margin-top: 27px;
+	margin-right: 0 !important;
 }
 
 .wpcf7-not-valid-tip {
@@ -505,9 +487,33 @@ div.wpcf7-validation-errors {
 	padding-bottom: 0;
 }
 
-@media screen and (min-width: 1001px) and (max-width: 1160px) {
+@media screen and (max-width: 1550px) {
 	.contact-column textarea {
 		height: 130px;
+	}
+}
+
+@media screen and (max-width: 1299px) {
+	.contact-column input[type='text'], .contact-column input[type='email'] {
+		padding-top: 3px !important;
+		padding-bottom: 3px !important;
+		height: 35px !important;
+	}
+}
+
+@media screen and (max-width: 1165px) {
+	.contact-column form {
+		padding: 4% 6% 0% 6%;
+	}
+
+	.contact-column textarea {
+		height: 100px;
+	}
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1160px) {
+	.contact-column textarea {
+		height: 100px;
 	}
 
 	.contact-column .radio-761 {
@@ -520,10 +526,6 @@ div.wpcf7-validation-errors {
 		width: 85%;
 	}
 
-	.contact-column .top-right {
-		margin-top: 0;
-	}
-
 	.title-radios {
 		width: 85%;
 	}
@@ -533,12 +535,52 @@ div.wpcf7-validation-errors {
 		display: block;
 	}
 
-	.contact-column .phone-input {
-		margin-top: 27px !important;
+	#expert-left {
+		padding: 6% !important;
 	}
 
-	.contact-text-block .phone {
-		top: 9px;
+	.contact-column .radio-761 {
+		margin-bottom: 20px;
+	}
+
+	.contact-column form {
+		padding: 0% 6%;
+	}
+
+	.contact-column textarea {
+		height: 150px;
+	}
+}
+
+@media screen and (width: 768px) {
+	.contact-column .contact-text-block {
+		width: 90%;
+	}
+
+	p.phone-container {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#expert-left {
+		display: none;
+	}
+
+	.contact-column textarea {
+		height: 100px;
+	}
+
+	.contact-column .radio-761 {
+		width: 70%;
+	}
+
+	p.phone-container {
+		display: none;
+	}
+
+	.contact-column form {
+		padding: 4% 6% 0% 6%;
 	}
 }
 
@@ -548,7 +590,7 @@ div.wpcf7-validation-errors {
 	}
 
 	.contact-column form {
-		padding: 5px 0px;
+		padding: 20px 0px 0px 0px;
 	}
 
 	.contact-text-block .phone {
@@ -556,11 +598,7 @@ div.wpcf7-validation-errors {
 	}
 
 	.contact-column p {
-		padding-bottom: 0px;
-	}
-
-	.contact-column .top {
-		height: 140px !important;
+		padding-bottom: 20px;
 	}
 
 	.contact-column input[type='text'], .contact-column input[type='email'] {
@@ -571,20 +609,6 @@ div.wpcf7-validation-errors {
 	.contact-column textarea {
 		padding: 5px !important;
 		height: 80px;
-	}
-
-	.contact-column .top-left {
-		width: 100%;
-	}
-
-	.contact-column .top-right {
-		width: 100%;
-		float: left;
-	}
-
-	.contact-column .title-line {
-		position: relative;
-		top: 15px;
 	}
 
 	.contact-column .radio-761 {
