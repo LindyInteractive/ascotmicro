@@ -11,6 +11,10 @@ body h2 {
     line-height: 50px !important;
 }
 
+.nectar-slider-loading {
+	background-image: url('http://10.1.10.157:8888/ascotmicro/wp-content/uploads/2015/08/custom-bg-square.png') !important;
+}
+
 #header-outer header#top nav > ul.buttons {
 	height: 30px !important;
 	overflow: visible !important;
