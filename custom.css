@@ -380,6 +380,10 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 	background: #fff;
 }
 
+.mobile-only {
+	display: none;
+}
+
 #contact-x {
 	display: block;
 	width: 24px;
@@ -535,7 +539,7 @@ div.wpcf7-validation-errors {
 		display: block;
 	}
 
-	#expert-left {
+	.wpb_text_column.expert-text-left {
 		padding: 6% !important;
 	}
 
@@ -563,7 +567,7 @@ div.wpcf7-validation-errors {
 }
 
 @media screen and (max-width: 767px) {
-	#expert-left {
+	.wpb_text_column.expert-text-left {
 		display: none;
 	}
 
@@ -585,12 +589,40 @@ div.wpcf7-validation-errors {
 }
 
 @media screen and (max-width: 480px) {
+	.mobile-only {
+		display: block;
+		height: 100%;
+		background: #fff;
+	}
+
+	.wpb_text_column.expert-text-left {
+		display: block;
+		padding: 30px !important;
+	}
+
+	.expert-cta {
+		display: none;
+	}
+
+	.full-width-content.vc_row-fluid .vc_col-sm-6.expert-block {
+		height: 800px !important;
+	}
+
+	.expert-block .wpb_wrapper {
+		height: 100% !important;
+	}
+
 	.contact-column .contact-text-block {
 		width: 100%;
+		display: none;
 	}
 
 	.contact-column form {
-		padding: 20px 0px 0px 0px;
+		padding: 0px 30px;
+	}
+
+	p.phone-container {
+		display: block;
 	}
 
 	.contact-text-block .phone {
@@ -608,7 +640,7 @@ div.wpcf7-validation-errors {
 
 	.contact-column textarea {
 		padding: 5px !important;
-		height: 80px;
+		height: 100px;
 	}
 
 	.contact-column .radio-761 {
@@ -642,12 +674,6 @@ div.wpcf7-validation-errors {
 @media screen and (max-width: 320px) {
 	.contact-column textarea {
 		height: 70px;
-	}
-
-	.contact-column .wpcf7-response-output {
-		max-height: 40px;
-		overflow: hidden;
-		text-overflow: ellipsis;
 	}
 }
 /* end contact form styles */
