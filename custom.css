@@ -1,3 +1,7 @@
+html, body {
+	background: #3C3940 !important;
+}
+
 body {
 	color: #565459;
 }
@@ -13,6 +17,29 @@ body h2 {
 
 .nectar-slider-loading {
 	background-image: url('http://10.1.10.157:8888/ascotmicro/wp-content/uploads/2015/08/custom-bg-square.png') !important;
+}
+
+#ajax-loading-screen {
+	background-color: #3C3940 !important;
+}
+
+@media screen and (max-width: 480px) {
+	#ajax-loading-screen .loading-icon {
+		background-size: 100px 100px !important;
+	}
+}
+
+#header-space {
+	display: none;
+}
+
+body #header-outer {
+    background-color: transparent;
+    margin-top: 35px !important;
+    padding-top: 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    height: 30px !important;
 }
 
 #header-outer header#top nav > ul.buttons {
@@ -114,19 +141,6 @@ h2, .light-heading {
 	font-family: 'Roboto'!important;
 }
 
-#header-space {
-	display: none;
-}
-
-body #header-outer {
-    background-color: transparent;
-    margin-top: 35px !important;
-    padding-top: 0 !important;
-    box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    height: 30px !important;
-}
-
 .full-height {
 	height: 101vh;
 }
@@ -168,6 +182,29 @@ body #header-outer {
 		display: block !important;
 	}
 }
+
+/* begin quiz styles */
+@media screen and (max-width: 480px) {
+	div.question-text {
+		margin: auto !important;
+	}
+
+	.dot-nav {
+		top: 45vh;
+		left: 0;
+		right: 0;
+		bottom: auto;
+		margin: auto;
+		width: 94px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	div.question-only {
+		line-height: 42px !important;
+	}
+}
+/* end quiz styles */
 
 /* begin accordion info styles */
 .accordion.education .accordion-title {
@@ -370,6 +407,15 @@ li.slide-out-widget-area-toggle, header#top nav ul .slide-out-widget-area-toggle
 @media screen and (max-width: 480px) {
 	#slide-out-widget-area #title-first-line {
 		margin-top: 20px;
+	}
+
+	#slide-out-widget-area #text-2 {
+		margin-bottom: 0 !important;
+	}
+
+	#slide-out-widget-area #nav_menu-2 {
+		position: relative;
+		bottom: 20px;
 	}
 }
 /* end menu / slide out widget styles */
