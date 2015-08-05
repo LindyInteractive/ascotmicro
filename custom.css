@@ -184,6 +184,17 @@ h2, .light-heading {
 }
 
 /* begin quiz styles */
+.single-answer .answer-text {
+	font-family: 'Nimbus-Sans-Condensed' !important;
+	font-size: 34px;
+	line-height: 38px;
+}
+
+.single-answer.active .answer-text {
+	color: #A2B9C0 !important;
+	border: 4px solid #A2B9C0 !important;
+}
+
 @media screen and (max-width: 480px) {
 	div.question-text {
 		margin: auto !important;
