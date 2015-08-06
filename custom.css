@@ -552,6 +552,14 @@ div.wpcf7-validation-errors {
 	padding-bottom: 0;
 }
 
+p.hidden-shape, p.hidden-setting, p.hidden-size, p.hidden-metal {
+	padding-bottom: 0 !important;
+}
+
+.contact-column input[name='shape'], .contact-column input[name='setting'], .contact-column input[name='size'], .contact-column input[name='metal'] {
+	display: none;
+}
+
 @media screen and (max-width: 1550px) {
 	.contact-column textarea {
 		height: 130px;
