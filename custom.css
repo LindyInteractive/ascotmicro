@@ -183,6 +183,12 @@ h2, .light-heading {
 	}
 }
 
+/* being live chat styles */
+.purechat * {
+	text-transform: none !important;
+}
+/* end live chat styles */
+
 /* begin quiz styles */
 .single-answer .answer-text {
 	font-family: 'Nimbus-Sans-Condensed' !important;
