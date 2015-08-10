@@ -187,6 +187,29 @@ h2, .light-heading {
 .purechat * {
 	text-transform: none !important;
 }
+
+.purechat-widget-header, .purechat-widget-title, .purechat-widget-title-link, .purechat-content-wrapper, .purechat-content, .purechat-form, .purechat-enterinfo-container, .purechat label, .purechat input {
+	font-family: 'Roboto' !important;
+}
+
+.purechat-widget-title, .purechat-widget-header, .purechat-menu, div.purechat-menu.btn-toolbar {
+	background-color: #565459 !important;
+}
+
+.purechat button.btn {
+	background-color: #3c3940 !important;
+	border: 0 !important;
+}
+
+.purechatbutton{
+	color:#fff;
+	background-color:#3c3940;
+	height:60px;
+	width:200px;
+	border-radius:0;
+	font-size:2em;
+}
+
 /* end live chat styles */
 
 /* begin quiz styles */
