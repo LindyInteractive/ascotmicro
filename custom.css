@@ -210,6 +210,13 @@ h2, .light-heading {
 	font-size:2em;
 }
 
+.purechat-widget .purechat-widget-header {
+	border-bottom: 1px solid #333333 !important;
+}
+
+.purechat-widget.purechat-bottom .purechat-widget-header, .purechat-window.purechat-bottom .purechat-widget-header, .purechat-hosted-widget.purechat-bottom .purechat-widget-header, .purechat-widget.purechat-bottom .purechat-widget-inner, .purechat-window.purechat-bottom .purechat-widget-inner, .purechat-hosted-widget.purechat-bottom .purechat-widget-inner {
+	border-radius: 0px !important;
+}
 /* end live chat styles */
 
 /* begin quiz styles */
