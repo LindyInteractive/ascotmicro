@@ -188,17 +188,65 @@ h2, .light-heading {
 	text-transform: none !important;
 }
 
-.purechat-widget-header, .purechat-widget-title, .purechat-widget-title-link, .purechat-content-wrapper, .purechat-content, .purechat-form, .purechat-enterinfo-container, .purechat label, .purechat input {
+.purechat-widget-header, .purechat-widget-title, .purechat-widget-title-link, .purechat-content-wrapper, .purechat-widget-content *, .purechat-content, .purechat-form, .purechat-enterinfo-container, .purechat-enterinfo-container p, .purechat label, .purechat input, .purechat textarea, .purechat-widget span * {
+	font-family: 'Roboto' !important;
+	letter-spacing: 2px !important;
+}
+
+.purechat-widget-header {
+	padding: 3px 5px !important;
+}
+
+div.purechat-widget span {
+	font-family: 'Roboto' !important;
+}
+
+div.purechat-start-chat-form, .purechat-start-chat-form p, div.purechat-widget .purechat-enterinfo-container p, .purechat-enterinfo-container * {
+	color: #565459 !important;
+	letter-spacing: 2px !important;
+	font-weight: normal !important;
+}
+
+.purechat form, .purechat-enterinfo-container {
+	padding: 5px 20px !important;
+}
+
+.purechat-widget span *, .purechat-widget span a, div.purechat-widget .purechat-content-wrapper div:last-child:not(.purechat-message-container) a:not(.btn):not(.purechat-toggle-audio-notifications), .purechat-window .purechat-content-wrapper div:last-child:not(.purechat-message-container) a:not(.btn):not(.purechat-toggle-audio-notifications) {
 	font-family: 'Roboto' !important;
 }
 
 .purechat-widget-title, .purechat-widget-header, .purechat-menu, div.purechat-menu.btn-toolbar {
-	background-color: #565459 !important;
+	background-color: #3c3940 !important;
 }
 
-.purechat button.btn {
-	background-color: #3c3940 !important;
+.purechat input, .purechat textarea {
+	background: #fff;
+	border: 1px solid #DFDFDF !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+
+.purechat label {
+	color: #a9a9a9 !important;
+	text-transform: uppercase !important;
+}
+
+.purechat button.btn, .purechat button.btn.btn-mini, .purechat input[type="submit"] {
+	background-color: #565459 !important;
+	border-color: #565459 !important;
+	border-top-color: #565459 !important;
+	border-top: 0 !important;
 	border: 0 !important;
+	border-radius: 0 !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.purechat input[type="submit"], .purechat input[type="submit"]#purechat-name-submit  {
+	padding: 10px 15px !important;
+	margin-top: 10px !important;
+	height: 35px !important;
+	text-transform: uppercase !important;
 }
 
 .purechatbutton{
