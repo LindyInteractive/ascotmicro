@@ -128,6 +128,15 @@ h2, .light-heading {
 	color: #565459 !important;
 }
 
+.swiper-wrapper .slider-down-arrow {
+	width: 70px !important;
+	margin-left: -35px !important;
+}
+
+.swiper-wrapper .slider-down-arrow i.icon-default-style[class^="icon-"] {
+	width: 70px !important;
+}
+
 .swiper-wrapper .swiper-slide[data-color-scheme="dark"] .slider-down-arrow i.icon-default-style[class^="icon-"] {
 	color: #BFD3D8 !important;
 }
